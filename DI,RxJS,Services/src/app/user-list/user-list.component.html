@@ -1,0 +1,2 @@
+<div *ngIf="isLoading">Loading...</div>
+<div *ngIf="!isLoading"><div *ngFor="let user of users">{{user.id}}-{{user.username}}-{{user.email}}</div></div>
